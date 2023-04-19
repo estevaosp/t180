@@ -1,0 +1,78 @@
+<html lang="pt-br">
+	<head>
+		<title>Html Aula 08 - Seleções</title>
+		<title>Formulário</title>
+		<meta charset="UTF-8">
+		<meta name"viewport" content="width=device-width initial-scale=1"><!-- Conceito de tabelles e css também fica com o layout mais semantico também.-->
+		<link rel="stylesheet" type="text/css" href="selecoes.css">
+	</head>
+	<body>
+		<header>
+			<h2> Tipos de tags para Selecionar </h2>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="./06-Diagramacao+Menu.Html">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#contato">Contato</a></li>
+					<li><a href="./08-selecoes.html">Tipos de Selecionar Itens</a></li>
+				</ul>
+			</nav>
+			<article>
+				<!--<h1>Contato</h1>
+				<p> Preencha os campos abaixo</p>-->
+
+				<form>
+                    <div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome">
+					</div>
+
+					<div>	
+						<label for="email">E-Mail</label><br>
+						<input type="text" name="email" id="email">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="8"></textarea>
+					</div>
+                    <div>
+                        <h4> Seleção Simples </h4>
+                            <label>Qual estação do ano você mais gosta?</label>
+                            <input type="radio" name="estacao" value="verao"> Verão
+                            <input type="radio" name="estacao" value="primavera"> Primavera
+                            <input type="radio" name="estacao" value="outono"> Outono
+                            <input type="radio" name="estacao" value="inverno"> Inverno
+                    </p>
+                    </div>
+                    <div>
+                        <h4> Seleção Multipla </h4>
+                            <label>Quais seus times preferidos?</label>
+                            <input type="checkbox" name="time" value="cuzeiro"> Cuzeiro
+                            <input type="checkbox" name="time" value="galinho"> Galinho
+                            <input type="checkbox" name="time" value="america"> America
+                            <input type="checkbox" name="time" value="palmeiras"> Palmeiras
+                            <input type="checkbox" name="time" value="vaxco"> Vaxco
+                    </p>
+                    </div>
+                    <div>
+                        <h4> Lista de Seleção </h4>
+                            <label>Qual a sua cor Favorita?</label>
+                            <select>
+                                <option value="amarelo">Amarelo</option>
+                                <option value="vermelho">Vermelho</option>
+                                <option value="azul">Azul</option>
+                            </select>
+                    </div>
+                    <div>
+					<p>
+						<input type="submit">
+					</p>
+					</div>
+				</form>
+			</article>
+		</section>
+	</body>
+</html>

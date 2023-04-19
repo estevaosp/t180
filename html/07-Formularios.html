@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        HTML - Aula 07 - Formulário
+    </title>
+    <title>Formulário</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="./form.css">
+</head>
+<body>
+    <header>
+        <h2> Fale Conosco </h2>
+    </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./06-Diagramacao+Menu.html">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1> Contato </h1>
+                <p> Preencha os campos abaixo </p>
+
+                <form method="post">
+                    <div>
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="email">E-Mail</label><br>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="coment">Fale Conosco</label><br>
+                        <input type="text" name="coment" id="coment">    
+                    </div>
+                    <div>
+                        <label for="tel">Telefone</label><br>
+                        <input type="text" name="tel" id="tel">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="mensagem" rows="8"></textarea>
+                    </div>
+                    <div>
+                        <p>
+                            <input type="submit">
+                        </p>
+                    </div>
+                </form>
+            </article>
+        </section>
+</body>
+</html>
